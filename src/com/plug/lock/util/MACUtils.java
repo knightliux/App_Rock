@@ -1,0 +1,29 @@
+package com.plug.lock.util;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class MACUtils {
+
+	public static String getMac() {
+		FileInputStream localFileInputStream;
+		String mac = "";
+		try{
+			localFileInputStream = new FileInputStream(
+					"/sys/class/net/eth0/address");
+			byte[] arrayOfByte = new byte[17];
+			localFileInputStream.read(arrayOfByte, 0, 17);
+			mac = new String(arrayOfByte);
+			localFileInputStream.close();
+			if (mac.contains(":"))
+				mac = mac.replace(":", "").trim();
+			if (mac.contains("-"))
+				mac = mac.replace("-", "").trim();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return mac.toLowerCase();
+
+	}
+	
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_container" type="id"/>
+    <item name="navigatin_manage" type="id" />
+    <item name="navigatin_search" type="id" />
+    <item name="navigatin_subject" type="id" />
+    <item name="navigatin_classify" type="id" />
+    <item name="navigatin_index" type="id" />
+    <item name="navigation_grid" type="id" />
+    <item name="icon" type="id" />
+    <item name="name" type="id" />
+    <item name="arrow" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="index_grid_latest" type="id" />
+    <item name="index_grid_hot" type="id" />
+    <item name="app_item_imageview" type="id" />
+    <item name="app_item_name" type="id" />
+    <item name="icon_telecontorl" type="id" />
+    <item name="icon_mouse" type="id" />
+</resources>

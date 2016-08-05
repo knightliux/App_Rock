@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="classify_movie">#19ac5b</color>
+    <color name="classify_learn">#e29b18</color>
+    <color name="classify_system">#eb7327</color>
+    <color name="classify_games">#00bee3</color>
+    <color name="classify_other">#b91c48</color>
+    <color name="text_color">#f0f0f0</color>
+    <color name="btn_click_color">#8ec011</color>
+</resources>
